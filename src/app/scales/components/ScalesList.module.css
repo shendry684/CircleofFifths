@@ -1,0 +1,24 @@
+/* src/components/ScalesList/ScalesList.module.css */
+
+.container {
+  background-color: #1e293b; /* slate-800 */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.container:hover {
+  background-color: #334155; /* slightly lighter slate */
+}
+
+.list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.listItem {
+  margin-bottom: 0.5rem;
+  color: #f8fafc; /* slate-200 */
+  font-size: 1rem;
+}

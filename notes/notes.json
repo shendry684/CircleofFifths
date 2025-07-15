@@ -1,0 +1,38 @@
+[
+  {
+    "note": "C",
+    "frequency": 261.63,
+    "octave": 4,
+    "intervals": {
+      "major": ["C", "D", "E", "F", "G", "A", "B"],
+      "minor": ["C", "D", "E♭", "F", "G", "A♭", "B♭"],
+      "modes": {
+        "ionian": ["C", "D", "E", "F", "G", "A", "B"],
+        "dorian": ["C", "D", "E♭", "F", "G", "A", "B♭"],
+        "phrygian": ["C", "D♭", "E♭", "F", "G", "A♭", "B♭"],
+        "lydian": ["C", "D", "E", "F♯", "G", "A", "B"],
+        "mixolydian": ["C", "D", "E", "F", "G", "A", "B♭"],
+        "aeolian": ["C", "D", "E♭", "F", "G", "A♭", "B♭"],
+        "locrian": ["C", "D♭", "E♭", "F", "G♭", "A♭", "B♭"]
+      }
+    }
+  },
+  {
+    "note": "G",
+    "frequency": 392.0,
+    "octave": 4,
+    "intervals": {
+      "major": ["G", "A", "B", "C", "D", "E", "F♯"],
+      "minor": ["G", "A", "B♭", "C", "D", "E♭", "F"],
+      "modes": {
+        "ionian": ["G", "A", "B", "C", "D", "E", "F♯"],
+        "dorian": ["G", "A", "B♭", "C", "D", "E", "F"],
+        "phrygian": ["G", "A♭", "B♭", "C", "D", "E♭", "F"],
+        "lydian": ["G", "A", "B", "C♯", "D", "E", "F♯"],
+        "mixolydian": ["G", "A", "B", "C", "D", "E", "F"],
+        "aeolian": ["G", "A", "B♭", "C", "D", "E♭", "F"],
+        "locrian": ["G", "A♭", "B♭", "C", "D♭", "E♭", "F"]
+      }
+    }
+  }
+]

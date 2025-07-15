@@ -1,0 +1,87 @@
+/* src/components/CircleWheel/CircleWheel.css */
+
+.relative {
+  position: relative;
+}
+
+.wheel {
+  width: 16rem;
+  height: 16rem;
+  margin: 1.5rem auto;
+}
+.circle-wheel {
+  position: relative;
+  width: 256px;
+  height: 256px;
+  margin: 1.5rem auto;
+}
+
+.major-button {
+  position: absolute;
+  background-color: #334155;
+  color: white;
+  border-radius: 12px;
+  width: 56px;
+  height: 56px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s ease;
+}
+
+.major-button:hover {
+  background-color: #475569;
+}
+
+.minor-button {
+  position: absolute;
+  background-color: #475569;
+  color: white;
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 0.4rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+}
+
+.minor-button:hover {
+  background-color: #64748b;
+}
+.wedge {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  clip-path: polygon(
+    50% 0%,
+    /* top center */ 100% 100%,
+    /* bottom right */ 0% 100% /* bottom left */
+  );
+  text-align: center;
+  background-color: #334155;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.wedge:hover {
+  background-color: #475569;
+  transform: scale(1.05);
+}
+.wedge-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+}
